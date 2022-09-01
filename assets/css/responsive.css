@@ -1,3 +1,4 @@
+/* for medium device */
 @media (max-width: 991px) {
     .navbar-nav{
         margin-top: 1rem;
@@ -12,6 +13,24 @@
     }
     .sign-btn{
       margin-top: 10px;
+    }
+    .home_container{
+        background-image: none !important;
+        height: auto;
+        padding-top: 22rem;
+    }
+    .home_content{
+       padding-top: 0;
+       text-align: center;
+    }
+    .home_content p{
+        color: #AFAFAF !important;
+    }
+}
+/* for small device */
+@media (max-width: 762px) {
+    .home_container{
+        padding-top: 8rem;
     }
 }
 
