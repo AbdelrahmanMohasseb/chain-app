@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+    .navbar-nav{
+        margin-top: 1rem;
+    }
+    .navbar-nav li{
+        background-color:#f7f7f7 ;
+        padding: 0.5rem 0rem;
+        border-bottom: solid 1px #e5e5e5;
+    }
+    .navbar-nav li:nth-of-type(5){
+        border-bottom: none;
+    }
+    .sign-btn{
+      margin-top: 10px;
+    }
+}
+
